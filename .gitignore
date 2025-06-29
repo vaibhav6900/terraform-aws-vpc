@@ -1,0 +1,23 @@
+# Terraform state files
+*.tfstate
+*.tfstate.backup
+
+# Crash logs
+crash.log
+
+# Terraform plan files
+*.tfplan
+
+# Local .terraform folder (stores provider plugins etc.)
+.terraform/
+
+# Lock file (optional, but usually commit it)
+# .terraform.lock.hcl
+
+# SSH Keys (agar koi use ki ho)
+*.pem
+*.key
+
+# Python cache (if using Python like app.py)
+__pycache__/
+*.pyc
